@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+    font-family: Arial sans-serif;
+}
+
+a {
+    color: black;
+}
+
+.menu > i:first-child {
+    display: none;
+}
+
+.menu > ul li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.alert {
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    border-bottom: 1px solid #FEFEFE;
+}
+
+.alert-error {
+    background-color: indianred;
+}
+
+.alert-success {
+    background-color: darkseagreen;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1.2rem;
+}
+
+.home {
+    background-color: lightcoral;
+}
+
+p {
+    text-align: center;
+    margin: 0.8rem;
+    font-size: 1.4rem;
+}
+
+ul, li {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin-inline:  2rem;
+    font-size: 1.2rem;
+}
+
+#img_home {
+    display: flex;
+    justify-content: center;
+}
+
+#form-register, #form-login , #form-addArticle, #form-addComment, #form-editArticle, #listUser, #container-list {
+    display: flex;
+    justify-content: center;
+}
+
+#form-addArticle, #form-addComment, #form-editArticle {
+    text-align: center;
+}
+
+#register, #login {
+    text-align: center;
+    border: 1px solid black;
+    width: 30%;
+    background-color: rgba(240, 128, 128, 0.62);
+}
+
+.save {
+    font-size: 1.2rem;
+    padding: 0.2rem;
+}
+
+input {
+    margin: 0.4rem;
+}
+
+#polska {
+    width: 40%;
+    margin: 2rem;
+}
+
+#polska2 {
+    width: 35%;
+    margin: 1.4rem;
+}
+
+#container-polska, #container-polska2 {
+    display: flex;
+    justify-content: center;
+}
+
+#article-show, #addArticle, #addComment, #editArticle, #listUser {
+    border: 1px solid black;
+    width: 48%;
+    background-color: lightcoral;
+    margin: 1.2rem;
+    padding: 0.4rem;
+}
+
+#comment {
+    border: 1px dashed black;
+    margin: 0.8rem;
+}
+
+#comments {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#container-article {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 860px) {
+    .menu > ul li {
+        display: block;
+    }
+
+    .menu > ul {
+        display: none;
+    }
+
+    .menu > i:first-child {
+        display: block;
+        padding: 1.2rem;
+    }
+
+    .menu:hover ul {
+        display: inline-block;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 1066px) {
+    #author {
+        text-align: center;
+    }
+}
+
+@media  screen and (max-width: 656px) {
+    #article-show,#listUser {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #editArticle {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #addComment {
+        width: 100%;
+    }
+}
+
+@media  screen and (max-width: 520px) {
+    #login, #register, #addArticle, #polska2, #polska {
+        width: 100%;
+    }
+}
+
