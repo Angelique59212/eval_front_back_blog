@@ -1,11 +1,11 @@
 <?php
 
 use App\Routing\AbstractRouter;
-use App\Controller\ErrorController;
 use App\Routing\ArticleRouter;
 use App\Routing\HomeRouter;
 use App\Routing\UserRouter;
 use App\Routing\CommentRouter;
+use App\Controller\ErrorController;
 
 require __DIR__ . '/../include.php';
 session_start();
