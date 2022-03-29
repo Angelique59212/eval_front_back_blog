@@ -18,7 +18,8 @@ class ArticleManager
         $query = Connect::dbConnect()->query("SELECT * FROM " . self::TABLE);
         if ($query) {
             $userManager = new UserManager();
-            
+            $format = 'Y-m-d H:i:s';
+
             foreach ($query->fetchAll() as $articleData) {
                 $articles[] = (new Article())
                     ->setId($articleData['id'])

@@ -1,7 +1,7 @@
 <?php
 
-use App\Controller\ErrorController;
 use App\Routing\AbstractRouter;
+use App\Controller\ErrorController;
 use App\Routing\ArticleRouter;
 use App\Routing\HomeRouter;
 use App\Routing\UserRouter;

@@ -4,24 +4,24 @@
     <form action="/index.php?c=user&a=register" onsubmit="return validateForm()" method="post" name="formRegister" id="register">
         <div>
             <label for="email">E-mail</label>
-            <input type="text" name="email" id="email" required>
+            <input type="text" name="email" id="email">
         </div>
         <div>
             <label for="firstname">First name</label>
-            <input type="text" name="firstname" id="firstname" required>
+            <input type="text" name="firstname" id="firstname">
         </div>
         <div>
             <label for="lastname">Last name</label>
-            <input type="text" name="lastname" id="lastname" required>
+            <input type="text" name="lastname" id="lastname">
         </div>
         <div>
             <div>
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password" required>
+                <input type="password" name="password" id="password">
             </div>
             <div>
                 <label for="password-repeat">Password repeat</label>
-                <input type="password" name="password-repeat" id="password-repeat" required>
+                <input type="password" name="password-repeat" id="password-repeat">
             </div>
         </div>
 
